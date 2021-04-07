@@ -1,0 +1,1 @@
+This program extracts all the data from a given subreddit. It removes stopwords from the csv files using NLTK package and filters for the keywords given in the csv files in each title of the reddit post using regex and appends everything to a dataframe. Finally, creates and writes to numerous csv files with the keyword as the name of the csv file.
